@@ -647,21 +647,24 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
-.cert-img:hover {
-    transform: scale(1.5);
-    -webkit-transform: scale(2.5);
-    -moz-transform: scale(2.5);
-    -ms-transform: scale(2.5);
-    -o-transform: scale(2.5);
-    transform: scale(2.5);
-    -webkit-box-shadow: 3px 3px 5px #000;
-    -moz-box-shadow: 3px 3px 5px #000;
-    box-shadow: 3px 3px 5px #000;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    position: absolute;
-    z-index: 3;
+@media (hover: hover) {
+    .cert-img:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(2.5);
+        -moz-transform: scale(2.5);
+        -ms-transform: scale(2.5);
+        -o-transform: scale(2.5);
+        transform: scale(2.5);
+        -webkit-box-shadow: 3px 3px 5px #000;
+        -moz-box-shadow: 3px 3px 5px #000;
+        box-shadow: 3px 3px 5px #000;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        position: absolute;
+        z-index: 3;
+    }
 }
+
 /*-------------------------------------
         9. Portfolio
 --------------------------------------*/
